@@ -43,9 +43,9 @@ Several embedding models were evaluated for their performance on health-related 
 
 4. Fine-tuned ClinicalBERT: ClinicalBERT was further fine-tuned using clinic notes data to improve its performance on health-related embeddings. This model was trained on a 3-class classification task to predict the category given clinic notes.
 
-![Chart](charts/finetuned model on clinical notes_768.png)
-![Chart](charts/keyword pair based finetuned model_768.png)
-![Chart](charts/Model trained on clinical notes and keyword pair both_768.png)
+![Chart](charts/keyword_pair_based_finetuned_model_768.png)
+![Chart](charts/finetuned_model_on_clinical_notes_768.png)
+![Chart](charts/Model_trained_on_clinical_notes_and_keyword_pair_both_768.png)
 
 
 ## Evaluation Results
@@ -64,4 +64,4 @@ Based on the evaluation, ClinicalBERT, particularly when fine-tuned on clinic no
 
 For a detailed analysis and code implementation, please refer to the Jupyter Notebook and the respective model directories in this repository.
 All models performence on keyword pair cosine similarity task
-![Chart](charts/tuned_model_comparion.png
+![Chart](charts/tuned_model_comparion.png)
