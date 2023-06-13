@@ -52,5 +52,3 @@ Based on the evaluation, ClinicalBERT, particularly when fine-tuned on clinic no
 For a detailed analysis and code implementation, please refer to the Jupyter Notebook and the respective model directories in this repository.
 All models performence keyword pair cosine similarity task
 ![Chart](charts/Model vs Cosine Similarity on Medical Keyword Pairs.png)
-Best model on cluster formation task
-![Chart](charts/raw_tuned_clinic_notes_bert_embedding_new.png)
