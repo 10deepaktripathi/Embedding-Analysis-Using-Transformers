@@ -2,6 +2,18 @@
 
 This repository contains the analysis and evaluation of embedding quality for health-related data using various embedding models. The goal was to assess the effectiveness of different models in capturing the semantic meaning and context of health-related keywords and clinical notes.
 
+
+# Directory Structure
+
+- [Embedding Analysis.ipynb](./Embedding%20Analysis.ipynb): Notebook containing code with Plotly graphs.
+- [Embedding Analysis1.ipynb](./Embedding%20Analysis1.ipynb): Notebook containing code with Seaborn graphs.
+- [model_tuning.ipynb](./model_tuning.ipynb): Notebook containing model architectures and parameters for fine-tuning clinical BERT model.
+- [preprocess_data.ipynb](./preprocess_data.ipynb): Notebook containing code for preprocessing ClinicNotes and Medical Keyword files.
+- [report_on_embedding_analysis.pdf](./report_on_embedding_analysis.pdf): Detailed report on the embedding analysis study.
+
+Feel free to explore the notebooks and report for more information.
+
+
 ## Evaluation Approaches
 
 Two main approaches were used to assess the embedding quality:
