@@ -39,9 +39,6 @@ Based on the evaluation, ClinicalBERT, particularly when fine-tuned on clinic no
 For a detailed analysis and code implementation, please refer to the Jupyter Notebook and the respective model directories in this repository.
 
 
-## Below is the code-
-
-<iframe src="https://10deepaktripathi.github.io/Embedding-Analysis-Using-Transformers/Embedding%20Analysis.html" width="800" height="600"></iframe>
 
 
 
