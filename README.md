@@ -50,6 +50,8 @@ The evaluation results revealed the following insights:
 Based on the evaluation, ClinicalBERT, particularly when fine-tuned on clinic notes data, showed the best performance in capturing health-related context. However, there is room for further research and improvement, including hyperparameter tuning and the incorporation of more health-specific training data.
 
 For a detailed analysis and code implementation, please refer to the Jupyter Notebook and the respective model directories in this repository.
+All models performence keyword pair cosine similarity task
+![Chart](charts/CosineSimilarityonMedicalKeywordPairs)
 
-![Chart](charts/Model vs Cosine Similarity on Medical Keyword Pairs.png)
+Best model on cluster formation task
 ![Chart](charts/raw_tuned_clinic_notes_bert_embedding_new.png)
