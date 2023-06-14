@@ -39,6 +39,9 @@ Several embedding models were evaluated for their performance on health-related 
   K-Means clustering result. Note that models is getting confused in putting datapoints in different clusters.
 ![Chart](KMeans_results/kmean_result.png)
 
+K-Means clustering result after finetunning model with 3 different approaches.
+![Chart](KMeans_results/kmeans_on_tuned_models.png)
+
 Scatter plots of clinic notes embeddings against clinic notes categories.
 ![Chart](charts/word2vec_96.png)
 ![Chart](charts/Elmo_1024.png)
