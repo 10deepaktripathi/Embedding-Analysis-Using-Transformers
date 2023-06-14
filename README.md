@@ -68,8 +68,11 @@ The evaluation results revealed the following insights:
 
 ## Conclusion
 
-Based on the evaluation, ClinicalBERT, particularly when fine-tuned on clinic notes data, showed the best performance in capturing health-related context. However, there is room for further research and improvement, including hyperparameter tuning and the incorporation of more health-specific training data.
+Based on the evaluation, all ClinicalBERT models, particularly when fine-tuned on clinic notes data and keyword pair both, showed the best performance in capturing health-related context. However, there is room for further research and improvement, including hyperparameter tuning and the incorporation of more health-specific training data.
 
 For a detailed analysis and code implementation, please refer to the Jupyter Notebook and the respective model directories in this repository.
 All models performence on keyword pair cosine similarity task
+
+</br>Lastly, a consolidated performence of all models on cosine similarity task is summarized below</br>
+
 ![Chart](charts/tuned_model_comparion.png)
