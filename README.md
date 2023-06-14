@@ -60,11 +60,9 @@ Several embedding models were evaluated for their performance on health-related 
 
 The evaluation results revealed the following insights:
 
-- Cosine similarity scores: The mean cosine similarity scores were calculated for each model's embeddings. The scores varied across models, with ClinicalBERT performing the best with a score of 0.81.
-
 - Scatter plots: The scatter plots of clinic notes embeddings showed varying degrees of grouping. ClinicalBERT fine-tuned on clinic notes data exhibited the clearest groupings, indicating better capturing of health-related context.
 
-- Keyword pair similarity: The models were also evaluated on the cosine similarity of medical keyword pairs. ClinicalBERT outperformed other models, achieving a similarity score of 0.8174.
+- Keyword pair similarity: The models were also evaluated on the cosine similarity of medical keyword pairs. ClinicalBERT outperformed other models, achieving a similarity score of 0.8174 with finetuned and 0.8134 with pretrained.
 
 ## Conclusion
 
