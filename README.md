@@ -31,7 +31,8 @@ Several embedding models were evaluated for their performance on health-related 
 
 2. ELMO: ELMO embeddings, which capture contextual information effectively, were used to generate embeddings for clinic notes. While ELMO performed better than Word2Vec, it was not specifically trained on health-related data.
 
-3. BERT: BERT embeddings, including BERT base uncased, BioBERT, ClinicalBERT, and BlueBERT, were evaluated. BERT models excel at capturing context but are also not specifically trained on health-related data.
+3. BERT: BERT embeddings, including BERT base uncased, BioBERT, ClinicalBERT, and BlueBERT, were evaluated. </br>
+   BERT Base uncased model excel at capturing context, but is also not specifically trained on health-related data.
 
 ![Chart](charts/word2vec_96.png)
 ![Chart](charts/Elmo_1024.png)
