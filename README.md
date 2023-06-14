@@ -43,7 +43,7 @@ Several embedding models were evaluated for their performance on health-related 
 
 </br>ClinicalBERT has captured the cluster better than any other model</br>
 
-</br> Below is the data cosine similarity result plot from each model.</br>
+</br> Below is the cosine similarity result plot from each model.</br>
 
 ![Chart](charts/pretrained_model_comparion.png)
 
