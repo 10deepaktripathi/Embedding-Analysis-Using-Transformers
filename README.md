@@ -5,7 +5,7 @@ This repository contains the analysis and evaluation of embedding quality for he
 
 # Directory Structure
 
-- [Embedding Analysis.ipynb](./Embedding%20Analysis.ipynb): Notebook contains comparitive study across multiple pretrained and finetuned models.
+- [Embedding Analysis1.ipynb](./Embedding%20Analysis1.ipynb): Notebook contains comparitive study across multiple pretrained and finetuned models.
 - [model_tuning.ipynb](./model_tuning.ipynb): Notebook containing model architectures and parameters for fine-tuning clinical BERT model.
 - [preprocess_data.ipynb](./preprocess_data.ipynb): Notebook containing code for preprocessing ClinicNotes and Medical Keyword files.
 - [report_on_embedding_analysis.pdf](./report_on_embedding_analysis.pdf): Detailed report on the embedding analysis study.
