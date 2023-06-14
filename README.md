@@ -11,8 +11,8 @@ This repository contains the analysis and evaluation of embedding quality for he
 - [preprocess_data.ipynb](./preprocess_data.ipynb): Notebook containing code for preprocessing ClinicNotes and Medical Keyword files.
 - [report_on_embedding_analysis.pdf](./report_on_embedding_analysis.pdf): Detailed report on the embedding analysis study.
 - [Embedding Analysis.ipynb](./Embedding%20Analysis.ipynb): Notebook containing same code as Embedding Analysis1.ipynb, but with Plotly graphs.
-- [charts] Contains all the charts that were drawn on this project.
-- [data] Contains all the data files models are getting analyized or finetuned on.
+- [charts](./charts): Contains all the charts that were drawn on this project.
+- [data](./data): Contains all the data files models are getting analyized or finetuned on.
 
 Feel free to explore the notebooks and report for more information.
 
