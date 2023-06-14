@@ -17,7 +17,7 @@ Feel free to explore the notebooks and report for more information.
 
 ## Evaluation Approaches
 
-Two main approaches were used to assess the embedding quality:
+Three main approaches were used to assess the embedding quality:
 
 1. Cosine Similarity between Medical Keyword Pairs: The cosine similarity was calculated for pairs of medical keywords to measure their similarity. A higher cosine similarity score indicates greater similarity between the keywords.
 
