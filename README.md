@@ -41,6 +41,11 @@ Several embedding models were evaluated for their performance on health-related 
 ![Chart](charts/ClinicalBERT_768.png)
 ![Chart](charts/BlueBERT_768.png)
 
+</br>ClinicalBERT has captured the cluster better than any other model</br>
+
+</br> Below is the data cosine similarity result plot from each model.</br>
+
+![Chart](charts/pretrained_model_comparion.png)
 
 4. Fine-tuned ClinicalBERT: ClinicalBERT was further fine-tuned using clinic notes data to improve its performance on health-related embeddings. This model was trained on a 3-class classification task to predict the category given clinic notes.
 
