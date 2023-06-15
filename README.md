@@ -36,7 +36,7 @@ Several embedding models were evaluated for their performance on health-related 
 3. BERT: BERT embeddings, including BERT base uncased, BioBERT, ClinicalBERT, and BlueBERT, were evaluated. </br>
    BERT Base uncased model excel at capturing context, but is not specifically trained on health-related data. BioBERT, ClinicalBERT, and BlueBERT are trained on health related data
    
-  K-Means clustering result. Note that models is getting confused in putting datapoints in different clusters.
+  K-Means clustering result. Note that K-Mens is not able to differentiate among different categories data points.
   
 ![Chart](KMeans_results/kmean_result.png)
 
