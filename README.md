@@ -89,7 +89,3 @@ Based on the evaluation, all ClinicalBERT based models, particularly when fine-t
 
 For a detailed analysis and code implementation, please refer to the Jupyter Notebook and the respective model directories in this repository.
 All models performence on keyword pair cosine similarity task
-
-</br>Lastly, a consolidated performence of all models on cosine similarity task is summarized below</br>
-
-![Chart](charts/tuned_model_comparion.png)
