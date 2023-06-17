@@ -81,11 +81,11 @@ The evaluation results revealed the following insights:
 
 - Scatter plots: The scatter plots of clinic notes embeddings showed varying degrees of grouping. ClinicalBERT fine-tuned on clinic notes data exhibited the clearest groupings, indicating better capturing of health-related context.
 
-- Keyword pair similarity: The models were also evaluated on the cosine similarity of medical keyword pairs. ClinicalBERT outperformed other models, achieving a similarity score of 0.8174 with finetuned and 0.8134 with pretrained.
+- Keyword pair similarity: The models were also evaluated on the cosine similarity of medical keyword pairs. ClinicalBERT outperformed other models, achieving a similarity score of 0.8174 with finetuned and 0.8134 with pretrained. when Clincal BERT and BioBERT used with sentence transformer outperformed any other models by giving 100% cosine similarity on keywrod pair task
 
 ## Conclusion
 
-Based on the evaluation, all ClinicalBERT models, particularly when fine-tuned on clinic notes data and keyword pair both, showed the best performance in capturing health-related context. However, there is room for further research and improvement, including hyperparameter tuning and the incorporation of more health-specific training data.
+Based on the evaluation, all ClinicalBERT based models, particularly when fine-tuned on clinic notes data and keyword pair both, showed the best performance in capturing health-related context. However, there is room for further research and improvement, including hyperparameter tuning and the incorporation of more health-specific training data.
 
 For a detailed analysis and code implementation, please refer to the Jupyter Notebook and the respective model directories in this repository.
 All models performence on keyword pair cosine similarity task
