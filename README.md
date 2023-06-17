@@ -25,7 +25,7 @@ Three main approaches were used to assess the embedding quality:
 3. Perform K-Means clustering on clinic notes embeddings and then check which type of category's (gastroenterology, cardiovascular, neurology) data produces the similar type of embedding. In other ways we want to check which model is getting confused among different types of category’s data points.
 
 ## BEST Result On Keyword Similariy task was using sentence transformer with clinical bert and bio bert. Please refer [Sentence_Transformer.ipynb](./Sentence_Transformer.ipynb) for additional information.
-![Chart](charts/keyword_similarity_ST.png)
+![Chart](charts/all_models_similarity.png)
 
 ## BEST Result On scatterplot grouping task without any fine tunning was using universal sentence encoder.
 ![Chart](charts/USE.png)
