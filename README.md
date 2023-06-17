@@ -6,7 +6,7 @@ This repository contains the analysis and evaluation of embedding quality for he
 # Directory Structure
 
 - [Embedding Analysis1.ipynb](./Embedding%20Analysis1.ipynb): Notebook contains comparitive study across multiple pretrained and finetuned models.
-- [Embedding_Using_Sentence_Transformer.ipynb](./Embedding_Using_Sentence_Transformer.ipynb): Notebook contains embedding techniques using sentence transformers and universal sentence encoder
+- [Sentence_Transformer.ipynb](./Sentence_Transformer.ipynb): Notebook contains embedding techniques using sentence transformers and universal sentence encoder
 - [model_tuning.ipynb](./model_tuning.ipynb): Notebook containing model architectures and parameters for fine-tuning clinical BERT model.
 - [preprocess_data.ipynb](./preprocess_data.ipynb): Notebook containing code for preprocessing ClinicNotes and Medical Keyword files.
 - [Detailed Report on Embedding Analysis](./detaild_report_on_embedding_analysis.pdf): A detailed PDF report about this case study
