@@ -36,6 +36,8 @@ Several embedding models were evaluated for their performance on health-related 
 
 3. BERT: BERT embeddings, including BERT base uncased, BioBERT, ClinicalBERT, and BlueBERT, were evaluated. </br>
    BERT Base uncased model excel at capturing context, but is not specifically trained on health-related data. BioBERT, ClinicalBERT, and BlueBERT are trained on health related data
+4. Sentence Transformers: Using sentence transformers with ClinicalBERT and BioBERT
+5. USE: Using universal sentence encoder(USE) for sentence embedding.
    
   K-Means clustering result. Note that K-Mens is not able to differentiate among different categories data points.
   
