@@ -24,7 +24,7 @@ Three main approaches were used to assess the embedding quality:
 2. Scatter Plot of Clinic Notes Embeddings: The clinic notes were transformed into embeddings using different models, and the embeddings were visualized using scatter plots. The goal was to observe if similar categories of clinic notes formed distinct clusters in the plot.
 3. Perform K-Means clustering on clinic notes embeddings and then check which type of category's (gastroenterology, cardiovascular, neurology) data produces the similar type of embedding. In other ways we want to check which model is getting confused among different types of category’s data points.
 
-## BEST Result On Keyword Similariy task was using sentence transformer with clinical bert and bio bert
+## BEST Result On Keyword Similariy task was using sentence transformer with clinical bert and bio bert. Please refer [Sentence_Transformer.ipynb](./Sentence_Transformer.ipynb) for additional information.
 ![Chart](charts/keyword_similarity_ST.png)
 
 ## BEST Result On scatterplot grouping task without any fine tunning was using universal sentence encoder.
