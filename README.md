@@ -15,7 +15,6 @@ This repository contains the analysis and evaluation of embedding quality for he
 
 Feel free to explore the notebooks and report for more information.
 
-
 ## Evaluation Approaches
 
 Three main approaches were used to assess the embedding quality:
@@ -25,6 +24,11 @@ Three main approaches were used to assess the embedding quality:
 2. Scatter Plot of Clinic Notes Embeddings: The clinic notes were transformed into embeddings using different models, and the embeddings were visualized using scatter plots. The goal was to observe if similar categories of clinic notes formed distinct clusters in the plot.
 3. Perform K-Means clustering on clinic notes embeddings and then check which type of category's (gastroenterology, cardiovascular, neurology) data produces the similar type of embedding. In other ways we want to check which model is getting confused among different types of category’s data points.
 
+## BEST Result On Keyword Similariy task was using sentence transformer with clinical bert and bio bert
+![Chart](charts/keyword_similarity_ST.png)
+
+## BEST Result On scatterplot grouping task without any fine tunning was using universal sentence encoder.
+![Chart](charts/USE.png)
 
 ## Embedding Models
 
@@ -50,7 +54,7 @@ K-Means clustering result after finetunning model with 3 different approaches.
 
 ![Chart](KMeans_results/kmeans_on_tuned_models.png)
 
-Scatter plots of clinic notes embeddings against clinic notes categories.
+Scatter plots of clinic notes embeddings against clinic notes categories using BERT models.
 ![Chart](charts/word2vec_96.png)
 ![Chart](charts/Elmo_1024.png)
 ![Chart](charts/BERT_768.png)
