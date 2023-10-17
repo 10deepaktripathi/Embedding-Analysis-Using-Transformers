@@ -1,6 +1,7 @@
 
 # Embedding Quality Evaluation for Health-related Data
 
+
 This repository contains the analysis and evaluation of embedding quality for health-related data using various embedding models. The goal was to assess the effectiveness of different models in capturing the semantic meaning and context of health-related keywords and clinical notes.
 
 # Directory Structure
