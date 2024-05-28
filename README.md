@@ -87,3 +87,4 @@ All models performence on keyword pair cosine similarity task
 Lastly the result of all models on cosine similarity task is as below -
 
 ![Chart](charts/all_models_similarity.png)
+
